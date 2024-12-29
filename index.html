@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DEXTswap Aggregator</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #iframe-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="iframe-container">
+        <!-- Initially empty container to load iframe -->
+    </div>
+
+    <script>
+        // Check if the API URL is accessible and display it via iframe dynamically
+        const apiUrl = 'https://www.dextools.io/widget-aggregator/en/swap/cronos/0x9ef3fc220867f6cf5655db3d950cda67a3a92f9f';
+        const iframeContainer = document.getElementById('iframe-container');
+        
+        const iframe = document.createElement('iframe');
+        iframe.src = apiUrl;
+        iframe.title = 'DEXTswap Aggregator';
+        iframe.width = '100%';
+        iframe.height = '100%';
+        
+        iframe.onload = () => {
+            console.log('Iframe loaded successfully');
+        };
+
+        iframe.onerror = (error) => {
+            console.error('Iframe loading failed', error);
+            alert('An error occurred while loading the content.');
+        };
+
+        iframeContainer.appendChild(iframe);
+    </script>
+
+</body>
+</html>
