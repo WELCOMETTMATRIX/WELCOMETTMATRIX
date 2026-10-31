@@ -1,5 +1,5 @@
 # 💫 About Me:
-# About Me — DogeKingMike 🐕👑<br><br>Welcome to my GitHub! 🚀<br><br>I’m **DogeKingMike**, a builder, developer, and Web3 enthusiast creating projects across blockchain, AI, and decentralized technology.<br><br>🌐 Exploring:<br>- Solana ecosystem development<br>- Smart contracts & token technology<br>- AI-powered applications<br>- Web3 tools and experiments<br><br>💻 Building. Learning. Innovating.<br><br>Welcome to my digital kingdom 👑<br><br>GitHub: Welcome to the Matrix ⚡
+# About Me — anomalyxis 🐕👑<br><br>Welcome to my GitHub! 🚀<br><br>I’m **DogeKingMike**, a builder, developer, and Web3 enthusiast creating projects across blockchain, AI, and decentralized technology.<br><br>🌐 Exploring:<br>- Solana ecosystem development<br>- Smart contracts & token technology<br>- AI-powered applications<br>- Web3 tools and experiments<br><br>💻 Building. Learning. Innovating.<br><br>Welcome to my digital kingdom 👑<br><br>GitHub: Welcome to the Matrix ⚡
 
 
 ## 🌐 Socials:
